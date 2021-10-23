@@ -95,24 +95,28 @@ header .container nav ul li a:hover {
 }
 
 .learn-about {
-    border: 1px solid red;
+
 }
 
 .learn-about .container {
-    border: 1px solid green;
 }
 
 .learn-about .container .cards {
     display: grid;
-    grid-column-gap: 100px;
-    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto auto;
     justify-content: center;
 }
 
 .learn-about .container .cards .card {
-    width: 250px;
-    height: 500px;
-    box-shadow: 0px 0px 20px;
+    width: 280px;
+    height: 400px;
+    box-shadow: 0px 0px 10px;
     border-radius: 5px;
-    
+    padding: 10px;
+}
+
+.learn-about .container .cards .card img
+{
+    width: 280px;
 }
