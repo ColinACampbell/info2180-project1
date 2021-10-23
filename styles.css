@@ -93,3 +93,27 @@ header .container nav ul li a:hover {
     max-width: 500px;
     padding: 10px;
 }
+
+.learn-about
+{
+    border: 1px solid red;
+}
+
+.learn-about .container
+{
+    border: 1px solid green;
+}
+
+.learn-about .container .cards
+{
+    display: grid;
+}
+
+.learn-about .container .cards .card
+{
+    width: 200px;
+    height: 500px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+    grid-column: 1 / span 2;
+}
