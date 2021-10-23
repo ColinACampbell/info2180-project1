@@ -23,6 +23,7 @@ header {
     align-items: center;
     flex-direction: row;
     font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
 }
 
 header .container {
@@ -63,4 +64,32 @@ header .container nav ul li a {
 
 header .container nav ul li a:hover {
     color: #5A67D8;
+}
+
+.overview-hero {
+    width: 100vw;
+    background-color: #E2E8F0;
+}
+
+.overview-hero .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    font-size: 18px;
+}
+
+.overview-hero .container .overview-hero-image img {
+    width: 250px;
+}
+
+.overview-hero .container .overview-hero-image {
+    width: 300px;
+    padding: 10px;
+}
+
+.overview-hero .container .overview-hero-text {
+    max-width: 500px;
+    padding: 10px;
 }
