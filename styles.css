@@ -144,13 +144,11 @@ header .container nav ul li a:hover {
     align-items: center;
 }
 
-.testing .container .testing-desciption
-{
+.testing .container .testing-desciption {
     width: 550px;
 }
 
-.cta
-{
+.cta {
     width: 200px;
     height: 45px;
     background-color: #48BB78;
@@ -162,38 +160,31 @@ header .container nav ul li a:hover {
     cursor: pointer;
 }
 
-.cta > a
-{
+.cta>a {
     color: white;
     text-decoration: none;
 }
 
-.stories
-{
+.stories {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
     margin-top: 90px;
 }
 
-.stories .container 
-{
+.stories .container {
     max-width: 1000px;
 }
 
-.stories .container h2
-{
+.stories .container h2 {
     color: #48BB78;
 }
 
-
-.stories .container article
-{
+.stories .container article {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.stories .container article img
-{
+.stories .container article img {
     height: 200px;
     width: 200px;
     border-radius: 100%;
@@ -201,26 +192,69 @@ header .container nav ul li a:hover {
     padding: 20px;
 }
 
-.stories .container article .article-body
-{
-   max-width: 70%;
-   padding: 20px;
+.stories .container article .article-body {
+    max-width: 70%;
+    padding: 20px;
 }
 
-.stories .container article .article-body a
-{
-   color: #5A67D8;
-   text-decoration: none;
-   text-transform: capitalize;
+.stories .container article .article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
-.stories .container article .article-body p
-{
-  margin-top: 30px;
+.stories .container article .article-body p {
+    margin-top: 30px;
 }
 
-.stories .container article .article-body h3
-{
-   font-size: 18px;
-   width: 70%;
+.stories .container article .article-body h3 {
+    font-size: 18px;
+    width: 70%;
+}
+
+.newsletter {
+    background-color: hsl(145, 46%, 51%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.newsletter .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.newsletter .container form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter .container button {
+    background-color: #5A67D8;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    width: 120px;
+}
+
+.newsletter .container input {
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0;
+    padding-left: 20px;
+    margin-right:15px;
+}
+
+.newsletter .container input::placeholder{
+    color: grey;
 }
