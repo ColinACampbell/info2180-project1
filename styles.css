@@ -159,10 +159,68 @@ header .container nav ul li a:hover {
     align-items: center;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .cta > a
 {
     color: white;
     text-decoration: none;
+}
+
+.stories
+{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+    margin-top: 90px;
+}
+
+.stories .container 
+{
+    max-width: 1000px;
+}
+
+.stories .container h2
+{
+    color: #48BB78;
+}
+
+
+.stories .container article
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories .container article img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.stories .container article .article-body
+{
+   max-width: 70%;
+   padding: 20px;
+}
+
+.stories .container article .article-body a
+{
+   color: #5A67D8;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.stories .container article .article-body p
+{
+  margin-top: 30px;
+}
+
+.stories .container article .article-body h3
+{
+   font-size: 18px;
+   width: 70%;
 }
